@@ -15,11 +15,11 @@ group :development, :test do
   gem 'guard-spork', '1.2.0'  
   gem 'spork', '0.9.2'
 end
+gem "haml-rails", "~> 0.3.5"
 
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-	gem "haml-rails", "~> 0.3.5"
   gem 'sass-rails',   '3.2.5'
   gem 'coffee-rails', '3.2.2'
   gem 'uglifier', '1.2.3'
